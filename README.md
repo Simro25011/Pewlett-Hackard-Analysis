@@ -4,7 +4,7 @@
 
 The purpose of this analysis is to assist Bobby’s manager oin preparing for the “silver tsunami” as many current employees reach retirement age. We will conduct a database analysis for Pewlett Hackard with detailed information on the number of future retirees currently working in all departments of the company to be able to develop a plan for recruiting new employees and prepare a mentoring plan.
 
-The criterion was based on the birth dates ranging from 1952 to 1955 and hired dates from 1985 to 1988.
+The criteria are based on birth dates from 1952 to 1955 and recruitment dates from 1985 to 1988.
 
 ## Results
 - After creating the unique_titles table by joining the Employees and Titles tables, filtering by date of birth and hire date, removing duplicates, and sorting the data points by hire date, 90,398 employees will retire according to the above criteria.
